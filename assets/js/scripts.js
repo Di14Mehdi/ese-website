@@ -13,7 +13,7 @@ function scroll_to(clicked_link, nav_height) {
 
 
 jQuery(document).ready(function() {
-	
+
 	/*
 	    Navigation
 	*/
@@ -21,17 +21,17 @@ jQuery(document).ready(function() {
 		e.preventDefault();
 		scroll_to($(this), $('nav').outerHeight());
 	});
-	
+
     /*
         Background
     */
-    $('.section-4-container').backstretch("assets/img/backgrounds/bg.jpg");
-    
+    $('.section-4-container').backstretch("assets/img/backgrounds/bg3.jpg");
+
     /*
 	    Wow
 	*/
 	new WOW().init();
-	
+
 	/*
 	    Carousel
 	*/
@@ -45,7 +45,7 @@ jQuery(document).ready(function() {
 	    var idx = $e.index();
 	    var itemsPerSlide = 5;
 	    var totalItems = $('.carousel-item').length;
-	    
+
 	    if (idx >= totalItems-(itemsPerSlide-1)) {
 	        var it = itemsPerSlide - (totalItems - idx);
 	        for (var i=0; i<it; i++) {
@@ -59,5 +59,5 @@ jQuery(document).ready(function() {
 	        }
 	    }
 	});
-	
+
 });

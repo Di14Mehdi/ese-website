@@ -1,13 +1,13 @@
 
-body { font-family: 'Open Sans', sans-serif; font-size: 15px; font-weight: 400; color: #888; line-height: 30px; text-align: center; }
+body { font-family: 'Open Sans', sans-serif; font-size: 15px; font-weight: 400; color: black; line-height: 30px; text-align: center; }
 
 strong { font-weight: 600; }
 
 a { color: #a365bc; border-bottom: 1px dashed #a365bc; text-decoration: none; transition: all .3s; }
 a:hover, a:focus { color: #a365bc; border: 0; text-decoration: none; }
 
-h1, h2 { margin-top: 10px; font-size: 38px; font-weight: 300; color: #555; line-height: 50px; font-style: italic; }
-h3 { font-size: 22px; font-weight: 300; color: #555; line-height: 30px; font-style: italic; }
+h1, h2 { margin-top: 10px; font-size: 38px; font-weight: 300; color: black; line-height: 50px; font-style: italic; }
+h3 { font-size: 22px; font-weight: 300; color: black; line-height: 30px; font-style: italic; }
 
 img { max-width: 100%; }
 
@@ -64,7 +64,7 @@ img { max-width: 100%; }
 .secty-4{
   height: 300px;
   width: auto;
-  background-image: url(../img/carrieres.jpg);
+  background-image: url(../img/careers.jpg);
   background-attachment: fixed;
   background-size:cover;
 }

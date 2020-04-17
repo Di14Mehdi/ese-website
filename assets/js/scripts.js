@@ -10,22 +10,22 @@ function scroll_to(clicked_link, nav_height) {
 		$('html, body').stop().animate({scrollTop: scroll_to}, 1000);
 	}
 }
-
+*/
 
 jQuery(document).ready(function() {
 
 	/*
 	    Navigation
-	*//*
+	*/
 	$('a.scroll-link').on('click', function(e) {
 		e.preventDefault();
 		scroll_to($(this), $('nav').outerHeight());
 	});
-*/
+
     /*
         Background
     */
-    $('.section-4-container').backstretch("assets/img/backgrounds/bg3.jpg");
+    $('.section-4-container').backstretch("assets/img/backgrounds/bg.jpg");
 
     /*
 	    Wow

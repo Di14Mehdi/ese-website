@@ -1,4 +1,4 @@
-
+/*
 function scroll_to(clicked_link, nav_height) {
 	var element_class = clicked_link.attr('href').replace('#', '.');
 	var scroll_to = 0;
@@ -16,12 +16,12 @@ jQuery(document).ready(function() {
 
 	/*
 	    Navigation
-	*/
+	*//*
 	$('a.scroll-link').on('click', function(e) {
 		e.preventDefault();
 		scroll_to($(this), $('nav').outerHeight());
 	});
-
+*/
     /*
         Background
     */

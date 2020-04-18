@@ -25,7 +25,7 @@ jQuery(document).ready(function() {
     /*
         Background
     */
-    $('.section-4-container').backstretch("assets/img/backgrounds/bg.jpg");
+    $('.section-4-container').backstretch("assets/img/backgrounds/bg3.jpg");
 
     /*
 	    Wow

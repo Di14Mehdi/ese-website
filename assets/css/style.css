@@ -111,6 +111,7 @@ img { max-width: 100%; }
 	background: url(../img/logotest.png) left center no-repeat;
 	border: 0;
 	text-indent: -99999px;
+	z-index: 999999999;
 }
 
 

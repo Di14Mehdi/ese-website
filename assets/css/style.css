@@ -181,7 +181,7 @@ img { max-width: 100%; }
 .section-3-box { margin-top: 30px; text-align: left; }
 
 .section-3-box .section-3-box-icon {
-	432: 60px; height: 60px; margin: 0 auto;
+	width: 60px; height: 60px; margin: 0 auto;
 
 	background: #8542a0; /* Old browsers */
 	background: -moz-linear-gradient(top,  #a365bc 0%, #8542a0 100%); /* FF3.6+ */
